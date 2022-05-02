@@ -1,0 +1,60 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #FF6B81;
+    --text-color: #888;
+    --light-black-color: #081828;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    line-height: 1.5;
+}
+
+.btn {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    border-radius: 0.5rem;
+}
+
+.btn a {
+    text-decoration: none;
+    color: var(--white-color);
+    display: block;
+    padding: 1.6rem 3rem;
+}
+
+.btn-empty {
+    border: 0.2rem solid var(--white-color);
+}
+
+.btn-empty:hover {
+    background-color: var(--white-color);
+}
+
+.btn-empty:hover a {
+    color: var(--primary-color);
+}
+
+.btn-fill {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.btn-fill:hover {
+    background-color: var(--light-black-color);
+}
+
+/* Animation */

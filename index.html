@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Appvilla</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/fonts/font_awesome/css/all.min.css">
+        <link rel="stylesheet" href="./assets/fonts/line_icons_free/icon-font/lineicons.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/grid.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <!-- Header -->
+            <header>
+                <nav class="header-nav">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img src="./assets/img/white_logo.svg" alt="Logo white" class="logo-white">
+                            <img src="./assets/img/black_logo.svg" alt="Logo black" class="logo-black hidden">
+                        </a>
+                    </div>
+                    <div class="nav-btn">
+                        <i class="lni lni-menu"></i>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#hero-area" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#features" class="nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#overview" class="nav-link">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#pricing" class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#team" class="nav-link">Team</a>
+                        </li>
+                        <li class="nav-item has-subnav">
+                            <a href="#blog" class="nav-link has-subnav">
+                                <span>Blog</span>
+                                <i class="lni lni-chevron-down"></i>
+                            </a>
+                            <ul class="subnav">
+                                <li class="subnav-item">
+                                    <a href="#" class="subnav-link">Blog Grid Sidebar</a>
+                                </li>
+                                <li class="subnav-item">
+                                    <a href="#" class="subnav-link">Blog Single</a>
+                                </li>
+                                <li class="subnav-item">
+                                    <a href="#" class="subnav-link">Blog Single Sidebar</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-empty btn-cta header-btn">
+                        <a href="#">Get It Now</a>
+                    </button>
+                </nav>
+            </header>
+
+            <!-- Hero area -->
+            <div class="hero-area" id="hero-area">
+                <div class="hero-wrapper">
+                    <div class="grid">
+                        <div class="row no-gutters">
+                            <div class="col l-5 m-12 c-12">
+                                <div class="hero-section hero-text">
+                                    <h1 class="hero-title" data-aos="fade-right" data-aos-duration="1000">A Powerful App For Your Business.</h1>
+                                    <p class="hero-desc" data-aos="fade-right" data-aos-duration="1000">
+                                        From open source to pro services, Piqes helps you to build, deploy, test, and monitor apps.
+                                    </p>
+                                    <div class="hero-btn" data-aos="fade-right" data-aos-duration="2000">
+                                        <button class="btn btn-appstore">
+                                            <a href="https://www.apple.com/app-store/">
+                                                <i class="lni lni-app-store"></i>
+                                                <span>Appstore</span>
+                                            </a>
+                                        </button>
+                                        <button class="btn btn-chplay btn-empty">
+                                            <a href="https://play.google.com/store/apps">
+                                                <i class="lni lni-play-store"></i>
+                                                <span>Google Play</span>
+                                            </a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-7 m-12 c-12">
+                                <div class="hero-section hero-img" data-aos="fade-left" data-aos-duration="3000">
+                                    <img src="./assets/img/hero_area_img.png" alt="Product preview">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main content -->
+            <div class="content">
+                <!-- Features -->
+                <div id="features" class="section-grey">
+                    <div class="section">
+                        <div class="section-text">
+                            <h3 class="section-name" data-aos="zoom-in" data-aos-duration="4000">FEATURES</h3>
+                            <h2 class="section-title" data-aos="fade-up" data-aos-duration="3000">Your Experience Gets Better And Better Over Time.</h2>
+                            <p class="section-desc" data-aos="fade-up" data-aos-duration="2800">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                            </p>
+                        </div>
+                        <div class="features-list">
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col l-4 m-6 c-12">
+                                        <div class="features-item">
+                                            <div class="features-icon">
+                                                <i class="lni lni-cloud-upload"></i>
+                                            </div>
+                                            <h3 class="features-item-name">Push to Deploy</h3>
+                                            <p class="features-item-desc">
+                                                It is a long established fact that a reader will be distracted by the readable content of a page at its layout.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-6 c-12">
+                                        <div class="features-item">
+                                            <div class="features-icon">
+                                                <i class="lni lni-lock"></i>
+                                            </div>
+                                            <h3 class="features-item-name">SSL Certificates</h3>
+                                            <p class="features-item-desc">
+                                                It is a long established fact that a reader will be distracted by the readable content of a page at its layout.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-6 c-12">
+                                        <div class="features-item">
+                                            <div class="features-icon">
+                                                <i class="lni lni-reload"></i>
+                                            </div>
+                                            <h3 class="features-item-name">Simple Queues</h3>
+                                            <p class="features-item-desc">
+                                                It is a long established fact that a reader will be distracted by the readable content of a page at its layout.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-6 c-12">
+                                        <div class="features-item">
+                                            <div class="features-icon">
+                                                <i class="lni lni-shield"></i>
+                                            </div>
+                                            <h3 class="features-item-name">Advanced Security</h3>
+                                            <p class="features-item-desc">
+                                                It is a long established fact that a reader will be distracted by the readable content of a page at its layout.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-6 c-12">
+                                        <div class="features-item">
+                                            <div class="features-icon">
+                                                <i class="lni lni-cog"></i>
+                                            </div>
+                                            <h3 class="features-item-name">Powerful API</h3>
+                                            <p class="features-item-desc">
+                                                It is a long established fact that a reader will be distracted by the readable content of a page at its layout.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col l-4 m-6 c-12">
+                                        <div class="features-item">
+                                            <div class="features-icon">
+                                                <i class="lni lni-layers"></i>
+                                            </div>
+                                            <h3 class="features-item-name">Database Backups</h3>
+                                            <p class="features-item-desc">
+                                                It is a long established fact that a reader will be distracted by the readable content of a page at its layout.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Overview -->
+                <div id="overview">
+                    <div class="section">
+                        <div class="grid">
+                            <div class="row">
+                                <div class="col c-12 m-12 l-6">
+                                    <div class="overview-text">
+                                        <div class="overview-icon">
+                                            <i class="lni lni-download"></i>
+                                        </div>
+                                        <h2 class="overview-title">1,25,000 Customers Using The Application!</h2>
+                                        <p class="overview-desc">
+                                            Collaborate over projects with your team and clients optimised for mobile and tablet don't let slow page speeds drive our innovative platform empowers anyone to convert clicks ou'll publish your first landing page in minutes.
+                                        </p>
+                                        <button class="btn btn-fill overview-btn">
+                                            <a href="#">Get Started</a>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col c-12 m-12 l-6">
+                                    <div class="overview-img">
+                                        <img src="./assets/img/overview_img_1.png" alt="App Preview 1st">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col c-12 m-12 l-6">
+                                    <div class="overview-img">
+                                        <img src="./assets/img/overview_img_2.png" alt="App Preview 1st">
+                                    </div>
+                                </div>
+                                <div class="col c-12 m-12 l-6">
+                                    <div class="overview-text right">
+                                        <div class="overview-icon">
+                                            <i class="lni lni-layout"></i>
+                                        </div>
+                                        <h2 class="overview-title">Seamless Loyalty</h2>
+                                        <p class="overview-desc">
+                                            Collaborate over projects with your team and clients optimised for mobile and tablet don't let slow page speeds drive our innovative platform empowers anyone to convert clicks ou'll publish your first landing page in minutes.
+                                        </p>
+                                        <button class="btn btn-fill overview-btn">
+                                            <a href="#">Get Started</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievements -->
+                <div id="achievements" class="section-primary">
+                    <div class="section">
+                        <div class="section-primary-text sub-section">
+                            <h2 class="section-primary-title">Trusted by developers from over 80 planets</h2>
+                            <p class="section-primary-desc">
+                                There are many variations of passages of Lorem Ipsum available, but the majority.
+                            </p>
+                        </div>
+                        <div class="achievements-list sub-section">
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col c-12 m-4 l-4">
+                                        <div class="achievements-item">
+                                            <span class="achievements-number">100%</span>
+                                            <span class="achievements-name">Satisfaction</span>
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-4 l-4">
+                                        <div class="achievements-item">
+                                            <span class="achievements-number">120K</span>
+                                            <span class="achievements-name">Happy Users</span>
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-4 l-4">
+                                        <div class="achievements-item">
+                                            <span class="achievements-number">125k+</span>
+                                            <span class="achievements-name">Downloads</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pricing -->
+                <div id="pricing" class="section-grey">
+                    <div class="section">
+                        <div class="section-text">
+                            <h3 class="section-name" data-aos="zoom-in" data-aos-duration="4000">PRICING</h3>
+                            <h2 class="section-title" data-aos="fade-up" data-aos-duration="3000">Pricing Plan</h2>
+                            <p class="section-desc" data-aos="fade-up" data-aos-duration="2800">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                            </p>
+                        </div>
+                        <div class="pricing-list">
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col c-12 m-6 l-3">
+                                        <div class="pricing-item">
+                                            <div class="pricing-header">
+                                                <h4>Hobby</h4>
+                                                <p>All the basics for starting a new business</p>
+                                                <div class="pricing-cost">
+                                                    <span class="pricing-number">$12</span>
+                                                    <span class="pricing-duration">/mo</span>
+                                                </div>
+                                                <button class="pricing-btn btn">Buy Hobby</button>
+                                            </div>
+                                            <div class="pricing-features">
+                                                <p>WHAT'S INCLUDED</p>
+                                                <ul class="pricing-features-list">
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Cras justo odio.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Dapibus ac facilisis in.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Morbi leo risus.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Potenti felis, in cras ligula.</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-6 l-3">
+                                        <div class="pricing-item">
+                                            <div class="pricing-header">
+                                                <h4>Freelancer</h4>
+                                                <p>All the basics for starting a new business</p>
+                                                <div class="pricing-cost">
+                                                    <span class="pricing-number">$24</span>
+                                                    <span class="pricing-duration">/mo</span>
+                                                </div>
+                                                <button class="pricing-btn btn">Buy Hobby</button>
+                                            </div>
+                                            <div class="pricing-features">
+                                                <p>WHAT'S INCLUDED</p>
+                                                <ul class="pricing-features-list">
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Cras justo odio.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Dapibus ac facilisis in.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Morbi leo risus.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Potenti felis, in cras ligula.</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-6 l-3">
+                                        <div class="pricing-item">
+                                            <div class="pricing-header">
+                                                <h4>Startup</h4>
+                                                <p>All the basics for starting a new business</p>
+                                                <div class="pricing-cost">
+                                                    <span class="pricing-number">$32</span>
+                                                    <span class="pricing-duration">/mo</span>
+                                                </div>
+                                                <button class="pricing-btn btn">Buy Hobby</button>
+                                            </div>
+                                            <div class="pricing-features">
+                                                <p>WHAT'S INCLUDED</p>
+                                                <ul class="pricing-features-list">
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Cras justo odio.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Dapibus ac facilisis in.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Morbi leo risus.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Potenti felis, in cras ligula.</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-6 l-3">
+                                        <div class="pricing-item">
+                                            <div class="pricing-header">
+                                                <h4>Enterprise</h4>
+                                                <p>All the basics for starting a new business</p>
+                                                <div class="pricing-cost">
+                                                    <span class="pricing-number">$48</span>
+                                                    <span class="pricing-duration">/mo</span>
+                                                </div>
+                                                <button class="pricing-btn btn">Buy Hobby</button>
+                                            </div>
+                                            <div class="pricing-features">
+                                                <p>WHAT'S INCLUDED</p>
+                                                <ul class="pricing-features-list">
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Cras justo odio.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Dapibus ac facilisis in.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Morbi leo risus.</span>
+                                                    </li>
+                                                    <li class="pricing-features-item">
+                                                        <i class="lni lni-checkmark-circle pricing-icon"></i>
+                                                        <span>Potenti felis, in cras ligula.</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team -->
+                <div id="team">
+                    <div class="section">
+                        <div class="section-text">
+                            <h3 class="section-name" data-aos="zoom-in" data-aos-duration="4000">TEAM</h3>
+                            <h2 class="section-title" data-aos="fade-up" data-aos-duration="3000">Meet Our Team</h2>
+                            <p class="section-desc" data-aos="fade-up" data-aos-duration="2800">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                            </p>
+                        </div>
+                        <div class="team-list">
+                            <div class="grid">
+                                <div class="row">
+                                    <div class="col c-12 m-6 l-4">
+                                        <div class="team-item">
+                                            <div class="team-img">
+                                                <img src="./assets/img/team_member_1.jpg" alt="Team Member">
+                                            </div>
+                                            <div class="team-text">
+                                                <div class="grid">
+                                                    <div class="row">
+                                                        <div class="col c-7 m-7 l-7">
+                                                            <div class="team-info">
+                                                                <p>Leonard Krasner</p>
+                                                                <span>Senior Designer</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col c-5 m-5 l-5">
+                                                            <div class="team-link">
+                                                                <a href="https://twitter.com/home">
+                                                                    <i class="lni lni-twitter-original"></i>
+                                                                </a>
+                                                                <a href="https://www.linkedin.com/">
+                                                                    <i class="lni lni-linkedin-original"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-6 l-4">
+                                        <div class="team-item">
+                                            <div class="team-img">
+                                                <img src="./assets/img/team_member_2.jpg" alt="Team Member">
+                                            </div>
+                                            <div class="team-text">
+                                                <div class="grid">
+                                                    <div class="row">
+                                                        <div class="col c-7 m-7 l-7">
+                                                            <div class="team-info">
+                                                                <p>Leonard Krasner</p>
+                                                                <span>Senior Designer</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col c-5 m-5 l-5">
+                                                            <div class="team-link">
+                                                                <a href="https://twitter.com/home">
+                                                                    <i class="lni lni-twitter-original"></i>
+                                                                </a>
+                                                                <a href="https://www.linkedin.com/">
+                                                                    <i class="lni lni-linkedin-original"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col c-12 m-6 l-4">
+                                        <div class="team-item">
+                                            <div class="team-img">
+                                                <img src="./assets/img/team_member_3.jpg" alt="Team Member">
+                                            </div>
+                                            <div class="team-text">
+                                                <div class="grid">
+                                                    <div class="row">
+                                                        <div class="col c-7 m-7 l-7">
+                                                            <div class="team-info">
+                                                                <p>Leonard Krasner</p>
+                                                                <span>Senior Designer</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col c-5 m-5 l-5">
+                                                            <div class="team-link">
+                                                                <a href="https://twitter.com/home">
+                                                                    <i class="lni lni-twitter-original"></i>
+                                                                </a>
+                                                                <a href="https://www.linkedin.com/">
+                                                                    <i class="lni lni-linkedin-original"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call action -->
+                <div id="call-action" class="section-primary">
+                    <div class="section">
+                        <div class="section-primary-text call-text sub-section">
+                            <h2 class="section-primary-title">Install Appvilla and Start Using</h2>
+                            <p class="section-primary-desc">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            </p>
+                        </div>
+                        <div class="call-btn">
+                            <button class="btn btn-appstore">
+                                <a href="https://www.apple.com/app-store/">
+                                    <i class="lni lni-app-store"></i>
+                                    <span>Appstore</span>
+                                </a>
+                            </button>
+                            <button class="btn btn-chplay btn-empty">
+                                <a href="https://play.google.com/store/apps">
+                                    <i class="lni lni-play-store"></i>
+                                    <span>Google Play</span>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ -->
+                <div id="faq">
+                    <div class="section">
+                        <div class="section-text">
+                            <h3 class="section-name" data-aos="zoom-in" data-aos-duration="4000">FAQ</h3>
+                            <h2 class="section-title" data-aos="fade-up" data-aos-duration="3000">Frequently Asked Questions</h2>
+                            <p class="section-desc" data-aos="fade-up" data-aos-duration="2800">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                            </p>
+                        </div>
+                        <ul class="faq-list">
+                            <li class="faq-item">
+                                <div class="faq-header">
+                                    <div class="faq-text">
+                                        <span class="faq-number">01</span>
+                                        <p class="faq-question">How Do I Contact To Customer Services?</p>
+                                    </div>
+                                    <div class="faq-icon">
+                                        <i class="lni lni-plus faq-icon-close"></i>
+                                        <i class="lni lni-minus faq-icon-open"></i>
+                                    </div>
+                                </div>
+                                <div class="faq-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus
+                                        <br><br>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-header">
+                                    <div class="faq-text">
+                                        <span class="faq-number">02</span>
+                                        <p class="faq-question">Material types you can work with?</p>
+                                    </div>
+                                    <div class="faq-icon">
+                                        <i class="lni lni-plus faq-icon-close"></i>
+                                        <i class="lni lni-minus faq-icon-open"></i>
+                                    </div>
+                                </div>
+                                <div class="faq-body">
+                                    <p>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-header">
+                                    <div class="faq-text">
+                                        <span class="faq-number">03</span>
+                                        <p class="faq-question">Can I have a multiple activeties in a single feature?</p>
+                                    </div>
+                                    <div class="faq-icon">
+                                        <i class="lni lni-plus faq-icon-close"></i>
+                                        <i class="lni lni-minus faq-icon-open"></i>
+                                    </div>
+                                </div>
+                                <div class="faq-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas expedita, repellendus est nemo cum quibusdam optio, voluptate hic a tempora facere, nihil non itaque alias similique quas quam odit consequatur.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-header">
+                                    <div class="faq-text">
+                                        <span class="faq-number">04</span>
+                                        <p class="faq-question">How Client Can Consult With online?</p>
+                                    </div>
+                                    <div class="faq-icon">
+                                        <i class="lni lni-plus faq-icon-close"></i>
+                                        <i class="lni lni-minus faq-icon-open"></i>
+                                    </div>
+                                </div>
+                                <div class="faq-body">
+                                    <p>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                        <br><br>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident iure ab nisi, magnam vitae. Laboriosam laborum suscipit recusandae officia laudantium, consectetur adipisci voluptates doloremque quisquam. Id rerum iusto reprehenderit assumenda!
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="faq-item">
+                                <div class="faq-header">
+                                    <div class="faq-text">
+                                        <span class="faq-number">05</span>
+                                        <p class="faq-question">Can I share resources between features?</p>
+                                    </div>
+                                    <div class="faq-icon">
+                                        <i class="lni lni-plus faq-icon-close"></i>
+                                        <i class="lni lni-minus faq-icon-open"></i>
+                                    </div>
+                                </div>
+                                <div class="faq-body">
+                                    <p>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Blog -->
+                <div id="blog">
+                    <div class="section">
+                        <div class="section-text">
+                            <h3 class="section-name" data-aos="zoom-in" data-aos-duration="4000">Blog</h3>
+                            <h2 class="section-title" data-aos="fade-up" data-aos-duration="3000">Our Latest News</h2>
+                            <p class="section-desc" data-aos="fade-up" data-aos-duration="2800">
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                            </p>
+                        </div>
+                        <div class="grid">
+                            <div class="row">
+                                <div class="col c-12 m-6 l-4">
+                                    <div class="blog-item">
+                                        <div class="blog-img">
+                                            <img src="./assets/img/blog_img_1.jpg">
+                                        </div>
+                                        <div class="blog-body">
+                                            <span class="blog-category">BLOG</span>
+                                            <a href="#" class="blog-title">Boost your conversion rate</a>
+                                            <p class="blog-desc">
+                                                Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.
+                                            </p>
+                                            <div class="blog-person">
+                                                <img src="./assets/img/blog_person_img_1.jpg" class="blog-person-img">
+                                                <div class="blog-person-info">
+                                                    <a href="#" class="blog-person-name">Roel Aufderhar</a>
+                                                    <div class="blog-person-subinfo">
+                                                        <a href="#">Mar 15,2023</a>
+                                                        <i class="fa-solid fa-circle"></i>
+                                                        <a href="#">5 min read</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col c-12 m-6 l-4">
+                                    <div class="blog-item">
+                                        <div class="blog-img">
+                                            <img src="./assets/img/blog_img_2.jpg">
+                                        </div>
+                                        <div class="blog-body">
+                                            <span class="blog-category">VIDEO</span>
+                                            <a href="#" class="blog-title">How to use search engine</a>
+                                            <p class="blog-desc">
+                                                Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.
+                                            </p>
+                                            <div class="blog-person">
+                                                <img src="./assets/img/blog_person_img_2.jpg" class="blog-person-img">
+                                                <div class="blog-person-info">
+                                                    <a href="#" class="blog-person-name"> Jenifer Zuliya</a>
+                                                    <div class="blog-person-subinfo">
+                                                        <a href="#">Feb 10,2023</a>
+                                                        <i class="fa-solid fa-circle"></i>
+                                                        <a href="#">7 min read</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col c-12 m-6 l-4">
+                                    <div class="blog-item">
+                                        <div class="blog-img">
+                                            <img src="./assets/img/blog_img_3.jpg">
+                                        </div>
+                                        <div class="blog-body">
+                                            <span class="blog-category">MARKETING</span>
+                                            <a href="#" class="blog-title">Awesome ways to boost sales</a>
+                                            <p class="blog-desc">
+                                                Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.
+                                            </p>
+                                            <div class="blog-person">
+                                                <img src="./assets/img/blog_person_img_3.jpg" class="blog-person-img">
+                                                <div class="blog-person-info">
+                                                    <a href="#" class="blog-person-name">Roel Aufderhar</a>
+                                                    <div class="blog-person-subinfo">
+                                                        <a href="#">Jan 20,2023</a>
+                                                        <i class="fa-solid fa-circle"></i>
+                                                        <a href="#">6 min read</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="section">
+                    <div class="footer-top">
+                        <div class="grid">
+                            <div class="row">
+                                <div class="col c-12 m-4 l-4">
+                                    <div class="footer-about">
+                                        <div class="footer-logo">
+                                            <img src="./assets/img/white_logo.svg" alt="">
+                                        </div>
+                                        <p class="footer-desc">
+                                            Making the world a better place through constructing elegant hierarchies.
+                                        </p>
+                                        <div class="footer-social">
+                                            <a href="https://facebook.com">
+                                                <i class="lni lni-facebook-filled"></i>
+                                            </a>
+                                            <a href="https://twitter.com">
+                                                <i class="lni lni-twitter-filled"></i>
+                                            </a>
+                                            <a href="https://instagram.com">
+                                                <i class="lni lni-instagram-original"></i>
+                                            </a>
+                                            <a href="https://linkedin.com">
+                                                <i class="lni lni-linkedin-original"></i>
+                                            </a>
+                                            <a href="https://youtube.com">
+                                                <i class="lni lni-youtube"></i>
+                                            </a>
+                                            <a href="https://pinterest.com">
+                                                <i class="lni lni-pinterest"></i>
+                                            </a>
+                                        </div>
+                                        <p class="footer-copyright">
+                                            Designed and Developed by UIdeck
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col c-12 m-8 l-8">
+                                    <div class="grid">
+                                        <div class="row">
+                                            <div class="col c-12 m-6 l-3">
+                                                <h4 class="footer-title">Solutions</h4>
+                                                <ul class="footer-link-list">
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Marketing</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Analytics</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Commerce</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Insights</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Promotion</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col c-12 m-6 l-3">
+                                                <h4 class="footer-title">Support</h4>
+                                                <ul class="footer-link-list">
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Pricing</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Documentation</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Guides</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">API Status</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Live Support</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col c-12 m-6 l-3">
+                                                <h4 class="footer-title">Company</h4>
+                                                <ul class="footer-link-list">
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">About Us</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Our Blog</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Jobs</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Press</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Contact Us</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col c-12 m-6 l-3">
+                                                <h4 class="footer-title">Legal</h4>
+                                                <ul class="footer-link-list">
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Terms & Conditions</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Privacy Policy</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Catering Services</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Customer Relations</a>
+                                                    </li>
+                                                    <li class="footer-link-item">
+                                                        <a href="#" class="footer-link">Innovation</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="grid">
+                            <div class="row">
+                                <div class="col c-12 m-6 l-6">
+                                    <h4>Subscribe To Our Newsletter</h4>
+                                    <p>The latest news, articles, and resources, sent to your inbox weekly.</p>
+                                </div>
+                                <div class="col c-12 m-6 l-6">
+                                    <form action="" class="footer-form">
+                                        <input type="email" placeholder="Your email address" class="footer-form-email">
+                                        <input type="submit" value="Subscribe" class="footer-form-submit btn">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Base JS -->
+        <script src="./js/app.js"></script>
+
+        <!-- Animate on scroll library -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

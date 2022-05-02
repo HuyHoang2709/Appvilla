@@ -1,0 +1,17 @@
+1. Header: -> OK
+  - Logo
+  - Nav bar
+  - CTA
+2. Hero area -> OK
+3. Content:
+  - Features -> OK
+  - Overview -> OK
+  - Achievements -> OK
+  - Pricing -> OK
+  - Team -> OK
+  - Call Action -> OK
+  - FAQ -> OK
+  - Blog -> OK
+4. Footer: -> OK
+  - Link
+  - Form
